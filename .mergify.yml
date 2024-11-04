@@ -4,6 +4,6 @@ pull_request_rules:
     conditions:
       - label = automerge
     actions:
-      merge:
+      queue:
 queue_rules:
   - name: queue
