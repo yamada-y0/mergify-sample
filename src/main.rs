@@ -3,7 +3,7 @@ fn main() {
 }
 
 fn get_message() -> &'static str {
-    "Hello, world!"
+    "Hello"
 }
 
 #[cfg(test)]
