@@ -3,7 +3,7 @@ fn main() {
 }
 
 fn get_message() -> &'static str {
-    "Hello, world!"
+    "Hello"
 }
 
 #[cfg(test)]
@@ -16,6 +16,6 @@ mod tests {
     fn test_get_message() {
         let five_min = time::Duration::from_secs(300);
         thread::sleep(five_min);
-        assert_eq!(get_message(), "Hello, world!");
+        assert_eq!(get_message(), "Hello");
     }
 }
