@@ -18,4 +18,9 @@ mod tests {
         thread::sleep(five_min);
         assert_eq!(get_message(), "Hello");
     }
+
+    #[test]
+    fn test_get_message2() {
+        assert_eq!(get_message(), "Hello, world!");
+    }
 }
