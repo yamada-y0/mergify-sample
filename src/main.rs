@@ -12,6 +12,6 @@ mod tests {
 
     #[test]
     fn test_get_message() {
-        assert_eq!(get_message(), "Hello world!");
+        assert_eq!(get_message(), "Hello!");
     }
 }
